@@ -1,7 +1,0 @@
-c:\users\shai\documents\visual studio 2015\Projects\FileSystemWatcherAlts\FileSystemWatcherAlts\obj\Debug\FileSystemWatcherAlts.csprojResolveAssemblyReference.cache
-c:\users\shai\documents\visual studio 2015\Projects\FileSystemWatcherAlts\FileSystemWatcherAlts\bin\Debug\FileSystemWatcherAlts.dll
-c:\users\shai\documents\visual studio 2015\Projects\FileSystemWatcherAlts\FileSystemWatcherAlts\bin\Debug\FileSystemWatcherAlts.pdb
-c:\users\shai\documents\visual studio 2015\Projects\FileSystemWatcherAlts\FileSystemWatcherAlts\bin\Debug\Polly.dll
-c:\users\shai\documents\visual studio 2015\Projects\FileSystemWatcherAlts\FileSystemWatcherAlts\bin\Debug\Polly.xml
-c:\users\shai\documents\visual studio 2015\Projects\FileSystemWatcherAlts\FileSystemWatcherAlts\obj\Debug\FileSystemWatcherAlts.dll
-c:\users\shai\documents\visual studio 2015\Projects\FileSystemWatcherAlts\FileSystemWatcherAlts\obj\Debug\FileSystemWatcherAlts.pdb

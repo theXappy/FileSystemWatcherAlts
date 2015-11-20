@@ -37,20 +37,20 @@ It defines methods and events corresponding to the ones in System.IO.FileSystemW
 If your project is already using FileSytemWatcher you change this:
 
 ```C#
-FileSystemWatcher watcher = new FileSystemWatcher(@"C:\");
+FileSystemWatcher sysMonitor = new FileSystemWatcher(@"C:\");
 ```
 
 To any of those:
 
 ```C#
-IFileSystemWatcher watcher = new FileSystemRefreshableWatcher(@"C:\");
-IFileSystemWatcher watcher = new FileSystemAutoRefreshingWatcher(@"C:\");
-IFileSystemWatcher watcher = new FileSystemPoller(pollingInterval: 500,path: @"C:\");
-IFileSystemWatcher watcher = new FileSystemOverseer(pollingInterval: 500, path: @"C:\");
+IFileSystemWatcher sysMonitor = new FileSystemRefreshableWatcher(@"C:\");
+IFileSystemWatcher sysMonitor = new FileSystemAutoRefreshingWatcher(@"C:\");
+IFileSystemWatcher sysMonitor = new FileSystemPoller(pollingInterval: 500,path: @"C:\");
+IFileSystemWatcher sysMonitor = new FileSystemOverseer(pollingInterval: 500, path: @"C:\");
 ```  
 
 Subscribe to the Created/Deleted/Renamed/Changed events, set EnableRaisingEvents to true and you are good to go!
 
 
 ### Thanks
-Icon: <a href="https://thenounproject.com/term/binoculars/160432/" target="_blank">Binoculars</a> designed by <a href="https://thenounproject.com/grega.cresnar/" target="_blank">Gregor Creönar</a> from The Noun Project
+Icon: <a href="https://thenounproject.com/term/binoculars/160432/" target="_blank">Binoculars</a> designed by <a href="https://thenounproject.com/grega.cresnar/" target="_blank">Gregor Cre≈°nar</a> from The Noun Project

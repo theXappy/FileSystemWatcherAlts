@@ -1,5 +1,5 @@
 ![Icon](https://github.com/Wootness/FileSystemWatcherAlts/blob/master/FileSystemWatcherAlts/Icon/noun_160432_cc.png?raw=true)
-# FileSystemWatcherAlts
+# FileSystemWatcherAlts[![Build status](https://ci.appveyor.com/api/projects/status/skjg78b5rr4xysam?svg=true)](https://ci.appveyor.com/project/Wootness/filesystemwatcheralts)
 
 ###### _Resolving your files watching trust issues since 2015._
 

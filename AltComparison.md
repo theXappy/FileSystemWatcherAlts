@@ -1,14 +1,14 @@
- | |FileSystemWatcher|FileSystemRefreshableWatcher|FileSystemAutoRefreshingWatcher|FileSystemPoller|FileSystemOverseer
-------------- | -------------| -------------|-------------| -------------|-------------| -------------
-**Supported Events**|**Created**|TRUE|TRUE|TRUE|TRUE|TRUE
- |**Deleted**|TRUE|TRUE|TRUE|TRUE|TRUE
- |**Changed**|TRUE|TRUE|TRUE|FALSE|TRUE*
- |**Renamed**|TRUE|TRUE|TRUE|FALSE|TRUE*
- |**Error**|TRUE|TRUE|TRUE|TRUE|TRUE
-**Issues Recovery**|**Remote Host Disconnected**|Breaks|User can refresh|Triggers watcher refresh|Continues when available|Triggers watcher refresh
- |**Remote Folder Deleted**|Breaks|User can refresh|Triggers watcher refresh|Continues when available|Triggers watcher refresh
- |**Internal Buffer Overflow**|Misses Files|Misses Files|Misses Files|No effect|Triggers polling
- |**Local Folder Deleted**|Breaks|User can refresh|User can refresh|Continues when available|Triggers watcher refresh
+| | |FileSystemWatcher|FileSystemRefreshableWatcher|FileSystemAutoRefreshingWatcher|FileSystemPoller|FileSystemOverseer |
+|------------- | -------------| -------------|-------------| -------------|-------------| -------------|
+|**Supported Events**|**Created**|TRUE|TRUE|TRUE|TRUE|TRUE|
+| |**Deleted**|TRUE|TRUE|TRUE|TRUE|TRUE|
+| |**Changed**|TRUE|TRUE|TRUE|FALSE|TRUE\*|
+| |**Renamed**|TRUE|TRUE|TRUE|FALSE|TRUE\*|
+| |**Error**|TRUE|TRUE|TRUE|TRUE|TRUE|
+|**Issues Recovery**|**Remote Host Disconnected**|Breaks|User can refresh|Triggers watcher refresh|Continues when available|Triggers watcher refresh|
+| |**Remote Folder Deleted**|Breaks|User can refresh|Triggers watcher refresh|Continues when available|Triggers watcher refresh|
+| |**Internal Buffer Overflow**|Misses Files|Misses Files|Misses Files|No effect|Triggers polling|
+| |**Local Folder Deleted**|Breaks|User can refresh|User can refresh|Continues when available|Triggers watcher refresh|
 
 
 \* Supported while the internal buffer doesn't overflow. Falls back to Created/Deleted events instead of renames if it does.

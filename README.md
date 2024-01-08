@@ -1,3 +1,7 @@
+# ⚠️ This project is not maintained.
+I suggest seeking other solutions like this one:  
+https://petermeinl.wordpress.com/2015/05/18/tamed-filesystemwatcher/ 
+
 ![Icon](https://github.com/Wootness/FileSystemWatcherAlts/blob/master/FileSystemWatcherAlts/Icon/noun_160432_cc.png?raw=true)
 # FileSystemWatcherAlts[![Build status](https://ci.appveyor.com/api/projects/status/skjg78b5rr4xysam?svg=true)](https://ci.appveyor.com/project/Wootness/filesystemwatcheralts)
 
